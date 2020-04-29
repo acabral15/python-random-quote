@@ -1,11 +1,11 @@
-def Dave():
-   print("Keep it logically awesome.")
+def main():
+  # print("Keep it logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+  f = open("quotes.txt")
+  quotes = f.readlines([0])
+  f.close()
 
-  #print(quotes)
+  print(quotes[0])
 
-if Dave== "__main__":
-  Dave()
+#if __name__== "__main__":
+  main()
